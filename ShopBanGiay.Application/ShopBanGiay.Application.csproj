@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Implementation\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShopBanGiay.Data.EF\ShopBanGiay.Data.EF.csproj" />
+    <ProjectReference Include="..\ShopBanGiay.Data\ShopBanGiay.Data.csproj" />
+    <ProjectReference Include="..\ShopBanGiay.Utilities\ShopBanGiay.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
